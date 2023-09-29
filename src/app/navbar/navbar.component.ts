@@ -27,7 +27,6 @@ export class NavbarComponent implements OnInit {
   }
 
   setIdleague(menuItemId: number) {
-    console.log("idl",menuItemId)
     this.footballService.setIdleagueChanged(menuItemId);
   }
 }
